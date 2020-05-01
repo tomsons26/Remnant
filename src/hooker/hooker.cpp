@@ -28,7 +28,7 @@
 
 using std::sprintf;
 
-static const int nBinarySize = 0x00244000; // Size of game binary
+static const int nBinarySize = 0x0014B800; // Size of game binary
 
 // HANDLE hProcess = GetCurrentProcess();
 DWORD OldProtect;

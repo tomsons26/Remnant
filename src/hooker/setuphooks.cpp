@@ -14,6 +14,7 @@
  */
 #include "setuphooks.h"
 #include "alloc.h"
+#include "hooker.h"
 #include <malloc.h>
 #include <stdarg.h>
 #include <stdio.h>
