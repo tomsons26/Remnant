@@ -1,0 +1,6 @@
+[submodule "libs/baseconfig"]
+	path = libs/baseconfig
+	url = https://github.com/TheAssemblyArmada/BaseConfig.git
+[submodule "libs/captnlog"]
+	path = libs/captnlog
+	url = https://github.com/TheAssemblyArmada/CaptainsLog.git
