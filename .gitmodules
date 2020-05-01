@@ -4,3 +4,6 @@
 [submodule "libs/captnlog"]
 	path = libs/captnlog
 	url = https://github.com/TheAssemblyArmada/CaptainsLog.git
+[submodule "launcher"]
+	path = launcher
+	url = https://github.com/TheAssemblyArmada/SetSail.git
