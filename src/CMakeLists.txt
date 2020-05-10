@@ -1,6 +1,7 @@
 set(GAMEENGINE_INCLUDES
     game
     game/memory
+    game/net
 )
 
 set(HOOKER_SRC hooker/dllmain.cpp hooker/hooker.cpp hooker/setupglobals.cpp hooker/setuphooks.cpp)
@@ -8,6 +9,10 @@ set(HOOKER_SRC hooker/dllmain.cpp hooker/hooker.cpp hooker/setupglobals.cpp hook
 set(GAMEENGINE_SRC
     game/memory/alloc.cpp
     game/memory/newdel.cpp
+    game/net/commbuff.cpp
+    game/net/listener.cpp
+    game/net/reliable.cpp
+    game/net/unreliable.cpp
 )
 
 if(CMAKE_CONFIGURATION_TYPES)
